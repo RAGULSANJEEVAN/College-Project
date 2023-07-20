@@ -1,0 +1,262 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  p {
+    margin-top:  25px;
+    color: black;
+    text-align: left;
+  }
+
+  .main-heading{
+    font-size: 4rem;
+    line-height: 2;
+    margin-bottom: 200px;
+    margin-left: 70px;
+  }
+  
+  .big-heading {
+    font-size: 3.0rem;
+    line-height: 1;
+    margin-top: 20px;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  
+  .colored-section {
+    color: black;
+  }
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  
+  
+  .navbar {
+    color: white;
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+  }
+  
+  .nav-item {
+    padding: 0 25px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+  }
+  
+  .navbar-toggler{
+    color: black;
+  }
+  
+  #title {
+    color: black;
+    text-align: center;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  
+  .title-image {
+    width: 50%;
+    position: absolute;
+    right: 20%;
+  }
+  
+  .row {
+    position:relative;
+    margin-left: 100px;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    color: black;
+  }
+  
+  .middle-container{
+    margin: 70px ;
+    padding: 0;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 150px auto 100px auto;
+    text-align: center;
+    line-height: 2;  
+  }
+  .chilli-img{
+    width: 25%;
+    float:right;
+    margin-right: 30px;
+  }
+  .code-img{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+  }
+  .logo-img{
+    width: 100px;
+    height: 100px;
+  }
+  .intro{
+    width: 30%;
+    margin: auto;
+  }
+  hr{
+    border: solid grey 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
+  }
+  h2{
+    padding-left: 40px;
+  }
+  li {
+      list-style-type: none;
+  }
+  #head{
+    padding-left: 20px;
+  }
+  .graph-head{
+    padding-left: 20px;
+    text-align: center;
+  }
+  
+  .story1 {
+      right: 50px;
+      margin: auto;
+      position: relative;
+      width: 1000px;
+      height: 800px;
+      overflow: hidden;
+      display: block;
+  }
+  .story2 {
+    right: 50px;  
+    margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    overflow: hidden;
+    display: block;
+}
+.story3 {
+  right: 50px;  
+  margin: auto;
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  overflow: hidden;
+  display: block;
+}
+
+.story4 {
+  right: 180px;  
+  margin: auto;
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  overflow: hidden;
+  display: block;
+}
+
+  ul li a{
+    border: 0px solid #ff726f;
+    background: none;
+    font-size: 20px;
+    font-family: "Ubuntu";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+  }
+  ul li a{
+    color: #fff;
+  }
+  ul li a:hover{
+    color: white;
+  }
+  ul li a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: 0.8s;
+    color: white;
+  }
+  ul li a::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+  ul li a:hover::before{
+    height: 180%;
+  }
+  .linksref {
+    text-align: left;
+    color: black;
+  }
+  .linksref:hover{
+    color: black;
+  }
+  .linksrefp {
+    text-align: left;
+    color: black;
+  }
+  .linksrefp:hover{
+    color: black;
+  }
+  @media (max-width: 1028px) {
+  
+    #title {
+      color: black;
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  
+  p {
+    margin-bottom: 25px;
+    color: black;
+  }
+  
+  .big-heading{
+    margin-top: 50px;
+    border-top: 45px;
+  
+  }
+  .chilli-img{
+    width: 38%;
+    float:right;
+    margin-right: 20px;
+  }
+  .code-img{
+    width: 38%;
+    float:left;
+    margin-right: 20px;
+  }
+}
+#footer{
+    margin-bottom: 0;
+    text-align:center;
+}

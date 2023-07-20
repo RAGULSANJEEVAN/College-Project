@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::selection {
+  color: rgb(196, 165, 29);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-image:transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgb(255, 255, 255); 
+  border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 107, 107); 
+  border-radius: 10px;
+}
+
+.back1{
+    background-color: #17283a;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+.back2{
+    background-color: #17283a;
+    width: 100%;
+    height: 100px;
+    margin-top: -10px;
+}
+.qlink1{
+   display: flex;
+    font-size: 25px;
+    font-family: 'Odibee Sans cursive';
+}
+.qlink1 a{
+    text-decoration: none;
+}
+.link1{
+    margin-top: -70px;
+    margin-left: 40px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+.link2{
+    margin-top: -70px;
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+.link3{
+    margin-top: -70px;
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+.link4{
+    margin-top: -70px;
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+.link5{
+    margin-top: -70px;
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+}
+.qlink1 :hover{
+    border-color: rgb(196, 165, 29);
+    color: rgb(196, 165, 29);
+}
+
+.back3{
+    background-image: url("https://www.georgetown.edu/wp-content/uploads/2019/08/20120319-Campus_0036-3000x1688-c--light-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1850px;
+}
+.back4{
+    margin-top: 120px;
+    margin-left: 120px;
+    background-color: #ddd;
+    width: 1300px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.back4 img{
+    width: 350px;
+    margin-left: 950px;
+    opacity: 1;
+}
+.image1{
+    margin-top: -590px;
+    margin-left: 50px;
+    width: 700px;
+    height: 450px;
+}
+.head1{
+    font-size: 50px;
+    color: black;
+    margin-top: -400px;
+    margin-left: 800px;
+    font-family: 'Bree Serif', serif;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+}
+.button1 {
+    background-color: orange;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 800px;
+    border-radius: 16px;
+    font-family: 'Odibee Sans cursive';
+    font-size: 20px;
+    width: 150px;
+  }
+  .button1:hover {
+    background-color: #f1f1f1;
+  }
+  .button2 {
+    background-color: orange;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 1050px;
+    border-radius: 16px;
+    font-family: 'Odibee Sans cursive';
+    font-size: 20px;
+    width: 150px;
+  }
+  
+  .button2:hover {
+    background-color: #f1f1f1;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-style: bold;
+    font-family: 'Odibee Sans cursive';
+    padding: 16px 32px;
+  }
+  .mainimg1{
+    margin-top: 170px;
+    margin-left: 606px;
+    padding-right: 80px;
+}
+.list1{
+    background-color:#17283a;
+    text-align:start;
+    color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 530px;
+    margin-top: -480px;
+    margin-left: 50px;
+    line-height: 60px;
+    padding-left:50px ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.lpara1 {
+    font-size: 50px; 
+    font-family: 'Bree Serif', serif; 
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.mainimg2{
+   margin-right: 650px;
+    margin-top: 80px;
+    padding-left: 30px;
+  }
+  .list2{
+    background-color: #ddd;
+    text-align:start;
+    color: rgb(0, 0, 0);
+    width: 1300px;
+    height: 530px;
+    margin-top: -480px;
+    margin-left: 120px;
+    line-height: 60px;
+    padding-left:800px ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.lpara2 {
+    font-size: 30px; 
+    font-family: 'Bree Serif', serif; 
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.back5{
+    background-image: url("https://www.georgetown.edu/wp-content/uploads/2019/08/20120319-Campus_0036-3000x1688-c--light-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2000px;
+}
+.mainimg3{
+  padding-top: 70px;
+  margin-left: 606px;
+  padding-right: 80px;
+}
+.list3{
+  background-color:#17283a;
+  text-align:start;
+  color: rgb(255, 255, 255);
+  width: 1300px;
+  height: 530px;
+  margin-top: -480px;
+  margin-left: 50px;
+  line-height: 60px;
+  padding-left:50px ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.lpara3 {
+    font-size: 40px; 
+    font-family: 'Bree Serif', serif; 
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.mainimg4{
+  margin-right: 650px;
+   margin-top: 80px;
+   padding-left: 30px;
+ }
+ .list4{
+  background-color: #ddd;
+   text-align:start;
+   color: rgb(0, 0, 0);
+   width: 1300px;
+   height: 530px;
+   margin-top: -480px;
+   margin-left: 120px;
+   line-height: 55px;
+   padding-left:800px ;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.lpara4{
+   font-size: 25px; 
+   font-family: 'Bree Serif', serif; 
+   padding-top: 10px;
+   padding-left: 50px;
+}
+.back7{
+  background-image: url("https://www.georgetown.edu/wp-content/uploads/2019/08/20120319-Campus_0036-3000x1688-c--light-default.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1400px;
+}
+.back6{
+  background-image: url("https://images.unsplash.com/photo-1560421683-6856ea585c78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 70px;
+width: 100%;
+height: 800px;
+}
+.trapezoid1 {
+	border-top: 300px solid #7fffd4b4;
+	border-left: 5px solid transparent;
+	border-right: 70px solid transparent;
+	height:400px ;
+	width:500px;
+    transform: rotate(-90deg);
+    margin-left: 100px;
+    margin-top: -600px;
+}
+.trapezoid2 {
+	border-top: 300px solid #808000c4;
+	border-left: 5px solid transparent;
+	border-right: 70px solid transparent;
+	height: 300px;
+	width:405px;
+    transform: rotate(-90deg);
+    margin-top: -307px;
+    margin-left: 397px;
+}
+.trapezoid3 {
+	border-top: 300px solid #cd863fbe;
+	border-left: 70px solid transparent;
+	border-right: 5px solid transparent;
+	height: 300px;
+	width:405px;
+    transform: rotate(90deg);
+    margin-top: -300px;
+    margin-left: 696px;
+}
+.trapezoid4 {
+	border-top: 300px solid #008080c0;
+	border-left: 70px solid transparent;
+	border-right: 5px solid transparent;
+	height:400px ;
+	width:500px;
+    transform: rotate(90deg);
+    margin-left: 897px;
+    margin-top: -393px;
+}
+.icons{
+  color: black;
+}
+.icon1{
+  
+  font-size: 80px;
+  position: absolute;
+  left: 250px;
+  top: 4700px;
+}
+.icon2{
+  
+  font-size: 80px;
+  position: absolute;
+  left: 550px;
+  top: 4750px;
+}
+.icon3{
+ 
+  font-size: 80px;
+  position: absolute;
+  left: 850px;
+  top: 4750px;
+}
+.icon4{
+  
+  font-size: 80px;
+  position: absolute;
+  left: 1150px;
+  top: 4700px;
+}
+.icons :hover{
+  color: #BDB76B;
+}
+.button3 {
+  position: absolute;
+  left: 220px;
+  top: 4980px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #191970;
+  color: #191970;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 26px;
+  font-family: 'Odibee Sans cursive';
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+.button3:hover {
+  background-color: #191970;
+  color: white;
+}
+.button4 {
+  position: absolute;
+  left: 520px;
+  top: 4980px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #006400;
+  color: #006400;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 26px;
+  font-family: 'Odibee Sans cursive';
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+.button4:hover {
+  background-color: #006400;
+  color: white;
+}
+.button5 {
+  position: absolute;
+  left: 820px;
+  top: 4980px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #B8860B;
+  color: #B8860B;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 26px;
+  font-family: 'Odibee Sans cursive';
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+.button5:hover {
+  background-color: #B8860B;
+  color: white;
+}
+.button6 {
+  position: absolute;
+  left: 1120px;
+  top: 4980px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #2F4F4F;
+  color: #2F4F4F;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 26px;
+  font-family: 'Odibee Sans cursive';
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+.button6:hover {
+  background-color: #2F4F4F;
+  color: white;
+}
+.back8{
+  width: 100%;
+  margin-top: 200px;
+}
+.back9{
+  position: absolute;
+ top: 3890px;
+ left: 1108px;
+ width: 400px;
+}
+.follow{
+  font-size: 80px;
+  position: absolute;
+  margin-top: -200px;
+  color: rgb(255, 255, 255);
+
+}
+.follow1{
+  margin-left: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  width: 150px;
+  height: 150px;  
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.follow2{
+  margin-left: 500px;
+  margin-top: -150px;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  width: 150px;
+  height: 150px;  
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.follow3{
+  margin-left: 830px;
+  margin-top: -150px;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  width: 150px;
+  height: 150px;  
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.follow4{
+  margin-left: 1160px;
+  margin-top: -150px;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  width: 150px;
+  height: 150px;  
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.follow :hover{
+  color: rgb(196, 165, 29);
+}
+.follow1 a :hover{
+  color: rgb(196, 165, 29);
+}
+.icon5{
+  font-size: 30px;
+  color: rgb(71, 125, 168);
+  margin-top: -500px;
+  margin-left: 100px;
+}
+.icon6{
+  font-size: 30px;
+  color: rgb(71, 125, 168);
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.fpara{
+  font-size: 20px;
+  margin-left: 970px;
+  margin-top: -220px;
+  line-height: 50px;
+  font-family: 'Odibee Sans cursive';
+}
+
+
+
+
+

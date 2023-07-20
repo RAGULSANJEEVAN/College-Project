@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image1{
+    background-color: #800000;
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+.marquee{
+  background-image: url("https://www.georgetown.edu/wp-content/uploads/2019/08/20120319-Campus_0036-3000x1688-c--light-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+  }
+.icons{
+  margin-left: 250px;
+  margin-right: 50px;
+    margin-top: -770px;
+    display: flex;
+}
+.icons :hover{
+    color: darkgrey;
+    border-top: 2px solid white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.dropdown1 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+.dropdown2 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content {
+  display: block;
+}
+.dropdown3 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+.dropdown4 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+.dropdown5 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+.image3{
+    margin-top: -18px;
+}
+
+.back{
+    background-image: url("https://www.georgetown.edu/wp-content/uploads/2019/08/20120319-Campus_0036-3000x1688-c--light-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3100px;
+    margin-top: 150px;
+}
+.mainimg1{
+    margin-top: -3180px;
+    margin-left: 616px;
+}
+.mainimg2{
+  width: 900px;
+  margin-top: 80px;
+}
+.mainimg3{
+
+  margin-top: 180px;
+  margin-left: 616px;
+}
+.mainimg4{
+  width: 900px;
+  margin-top: 80px;
+}
+.list1{
+    background-color:#b41225 ;
+    text-align:start;
+    color: white;
+    width: 400px;
+    height: 530px;
+    line-height: 60px;
+    margin-top: -400px;
+    margin-left: 130px;
+    border: 0.5rem solid #DAA520;
+    border-radius: 2rem;
+}
+.list2{
+  background-color:#b41225 ;
+  text-align:start;
+  color: white;
+  width: 400px;
+  height: 530px;
+  line-height: 60px;
+  margin-top: -400px;
+  margin-left: 1000px;
+  border: 0.5rem solid #DAA520;
+  border-radius: 2rem;
+}
+.list3{
+  background-color:#b41225 ;
+  text-align:start;
+  color: white;
+  width: 400px;
+  height: 530px;
+  line-height: 60px;
+  margin-top: -400px;
+  margin-left: 130px;
+  border: 0.5rem solid #DAA520;
+  border-radius: 2rem;
+}
+.list4{
+  background-color:#b41225 ;
+  text-align:start;
+  color: white;
+  width: 400px;
+  height: 530px;
+  line-height: 60px;
+  margin-top: -400px;
+  margin-left: 1000px;
+  border: 0.5rem solid #DAA520;
+  border-radius: 2rem;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 40px;
+    font-style: bold;
+    padding: 16px 32px;
+  }
+.quicklink1{
+  background-color: rgb(116, 116, 116);
+  height: 200px;
+  margin-top: 20px;
+}
+.qlink1{
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+.qlink1 :hover{
+  color: rgb(196, 165, 29);
+}
+.image4{
+  background-image: url("https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+.list5{
+  background-color:#fcfcfc ;
+  text-align:start;
+  color: rgb(7, 1, 1);
+  width: 470px;
+  height: 430px;
+  line-height: 60px;
+  margin-top: -550px;
+  margin-left: 50px;
+  border: 0.5rem solid #fcfcfc;
+  padding: 0px 40px;
+  padding-top: 50px;
+}
+.list6{
+  background-color:#fcfcfc ;
+  text-align:start;
+  color: rgb(7, 1, 1);
+  width: 470px;
+  height: 430px;
+  line-height: 60px;
+  margin-top: -430px;
+  margin-left: 1000px;
+  border: 0.5rem solid #fcfcfc;
+  padding: 0px 40px;
+  padding-top: 50px;
+}
+.heading1{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-top: -600px;
+}
+.back3{
+  margin-top: 630px;
+  width: 100%;
+}
+.follow{
+  font-size: 80px;
+  margin-top: -330px;
+  color: white;
+}
+.follow1{
+  margin-left: 150px;
+
+}
+.follow2{
+  margin-left: 500px;
+  margin-top: -200px;
+}
+.follow3{
+  margin-left: 830px;
+  margin-top: -200px;
+}
+.follow4{
+  margin-left: 1160px;
+  margin-top: -200px;
+}
+.follow :hover{
+  color: rgb(196, 165, 29);
+}
+.follow1 a :hover{
+  color: rgb(196, 165, 29);
+}

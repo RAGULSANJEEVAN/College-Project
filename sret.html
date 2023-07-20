@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRET-Sri Ramachandra institute of Engineering and Technology</title>
+<link rel = "icon" href = "sret(2).png" type = "image/x-icon">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<style>
+body{
+  margin: 0px;
+
+}
+*{
+  box-sizing: border-box;
+}
+::selection {
+  color: rgb(196, 165, 29);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-image:transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgb(255, 255, 255); 
+  border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 107, 107); 
+  border-radius: 10px;
+}
+.image1{
+    background-color: #17283a;
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+.icons{
+  margin-left: 250px;
+  margin-right: 50px;
+    margin-top: -120px;
+    display: flex;
+    font-family: 'Odibee Sans cursive';
+}
+.icons :hover{
+    color: rgb(196, 165, 29);
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.dropdown1 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+.dropdown2 {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.dropdown-content  {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content {
+  display: block;
+}
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+.dropdown4 {
+
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+.dropdown5 {
+
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+.back1{
+  background-color: #ddd;
+    width: 100%;
+    height: 100px;
+    margin-top: -13px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.sret {
+  background-color: #ddd;
+  font-family: Helvetica, sans-serif;
+ 
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width:50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 100px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 25px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.name1{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -1650px;
+    margin-left: 900px;
+}
+.name2{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -1250px;
+    margin-left: 300px;
+}
+.name3{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -900px;
+    margin-left: 900px;
+}
+.name4{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 300px;
+}
+.name5{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+.back3{
+   background-color: #17283a;
+   width: 100%;
+   height: 450px;
+
+}
+.fpara{
+  font-size: 20px;
+  margin-left: 970px;
+  margin-top: -120px;
+  line-height: 50px;
+  font-family: 'Odibee Sans cursive';
+  color: #F5F5F5;
+}
+.icons1{
+  font-size: 60px;
+  margin:0 200px ;
+  margin-top: -80px;
+  
+}
+.icons1 a{
+  color: #F5F5F5;
+}
+.icons1 :hover{
+  color: rgb(196, 165, 29);
+}
+.vl {
+  border-left: 4px solid #F5F5F5;
+  height: 180px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -205px;
+ 
+}
+</style>
+</head>
+<body>
+    <div class="image1">
+        <img src="mainlogo1.png" alt="" style="width: 200px; margin-left: 400px;margin-top: 10px;">
+        <p style="margin-left: 650px;margin-top: -120px;font-size: 40px;font-family: 'Odibee Sans cursive';">SRI RAMACHANDRA</p> 
+        <P style="margin-left:650px;font-family: 'Odibee Sans cursive';margin-top: -20px;">INSTITUTE OF HIGHER EDUCATION AND RESEARCH</P>
+        <p style="margin-left: 400px;letter-spacing: 5px;font-family: 'Odibee Sans cursive';margin-top: 30px;">SRI RAMACHANDRA INSTITUTE OF ENGINEERING AND TECHNOLOGY</p>
+      </div>
+    <div class="icons">
+        <div class="dropdown">
+          <a href="side.html" style="text-decoration: none; color: rgba(255, 255, 255, 0.877);list-style: none;"> <span >Home</span> </a>
+          <div class="dropdown-content">
+          <a href="sriher.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>SRIHER</li> <br></a>
+          <a href="sret.html"  style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>SRET</li></a>
+          </div>
+        </div>
+        <div class="dropdown1">
+          <span>Academics</span>
+          <div class="dropdown-content ">
+          <a href="degree.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>Degree</li> <br></a>
+          <a href="collegetour.html"  style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>College tour</li></a>
+          </div>
+        </div>
+        <div class="dropdown2">
+          <span>Admission</span>
+          <div class="dropdown-content ">
+          <a href="prospectus.html" style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>Admission prospectus</li> <br></a>
+          <a href="events.html"  style="text-decoration: none; color: rgba(0, 0, 0, 0.877);list-style: none;"><li>Admission events</li></a>
+          </div>
+        </div>
+        <div class="dropdown3">
+          <a href="Faculty.html" style="text-decoration:none;color: white;"><p>Faculty</p></a>
+        </div>
+        <div class="dropdown4">
+          <a href="research.html" style="text-decoration:none;color: white;"><p>Research</p></a>
+        </div>
+        <div class="dropdown5">
+          <a href="contact.html" style="text-decoration:none;color: white;"><p>Contact</p></a>
+        </div>
+  </div>
+  <div class="back1"> 
+      <p class="mpara">SRET MANAGEMENT</p>
+  </div>
+<div class="sret">
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="founder.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h2 style="padding-top: 130px;">Founder Chancellor</h2> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="chancellor.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h2 style="padding-top: 130px;">Chancellor</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="prochancellor.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h2 style="padding-top: 130px;">Pro Chancellor</h2> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="vice.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h2 style="padding-top: 130px;">Vice Chancellor</h2> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="provost.png" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h2 style="padding-top: 130px;">Provost</h2> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+    <p class="name1">Shri. N.P.V. Ramasamy Udayar</p>
+    <p class="name2">Shri. V.R. Venkataachalam</p>
+    <p class="name3">Shri. R.V. Sengutuvan</p>
+    <p class="name4">Prof. P.V. Vijayaraghavan</p>
+    <p class="name5">Prof. V. Raju</p>
+</div>
+<div class="back3">
+    <img src="mainlogo1.png" alt="" style="width: 150px; margin-left: 100px;margin-top: 100px;color: #F5F5F5;">
+    <p style="margin-left: 250px;margin-top: -100px;font-size: 40px;font-family: 'Odibee Sans cursive';color: #F5F5F5;">SRI RAMACHANDRA</p> 
+    <p style="margin-left: 330px;letter-spacing: 10px;margin-top: -30px; font-family: 'Odibee Sans cursive';font-size: 20px;color: #F5F5F5;">UNIVERSITY</p>
+  
+  <div class="fpara">
+    <p>Sri Ramachandra Engineering and Technology,<br>
+      Sri Ramachandra Institute of Higher Education and Research <br> (Deemed to be University),
+      No.1 Ramachandra Nagar Porur,<br>
+      Chennai - 600116, Tamil Nadu, India.</p>
+    </div> 
+    <div class="vl"></div>
+  </div>
+  </div>
+  <div class="icons1">
+    <a href="https://www.facebook.com/SRET.Official/" target="_blank" style="margin-left: 300px;"><i class="fab fa-facebook-square" ></i></a>
+    <a href="https://twitter.com/sret_official" target="_blank"> <i class="fab fa-twitter-square"style="margin-left: 100px;"></i></a>
+      <a href="https://www.instagram.com/sret.official/?utm_medium=copy_link" target="_blank"> <i class="fab fa-instagram"style="margin-left: 100px;"></i></a>
+        <a href="https://www.linkedin.com/school/sriher-official/" target="_blank"> <i class="fab fa-linkedin"style="margin-left: 100px;"></i></a>
+  </div>
+  <div>
+    <p style="font-size: 40px;margin-left: 670px;margin-top: -150px; color: #F5F5F5;   font-family: 'Bree Serif', serif;">Follow us on</p>
+  </div>
+</body>
+</html>
